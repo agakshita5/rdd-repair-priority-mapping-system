@@ -1,4 +1,4 @@
-Following deliverables need to be submitted:
+Following deliverables need to be submitted for milestone 2:
 
 - Finalized system requirements
 - System architecture and design
