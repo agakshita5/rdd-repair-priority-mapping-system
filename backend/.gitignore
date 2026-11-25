@@ -1,0 +1,25 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+TODO
+# runtime data (keep folders, not contents)
+storage/*
+!storage/uploads/
+!storage/annotated/
+storage/uploads/*
+storage/annotated/*
+!storage/**/.gitkeep
+
+# model weights: share via Google Drive, not git
+weights/*
+!weights/.gitkeep
+
+# downloaded images for scripts
+data/
+
+# local experiments
+runs/
+road_test/
